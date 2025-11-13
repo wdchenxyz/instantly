@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "instantly",
-  "title": "instantly",
-  "description": "Quickly jump to it.",
+  "title": "Instantly",
+  "description": "An extension to instantly jump to your favorite URLs.",
   "icon": "extension-icon.png",
   "author": "wdchen",
   "license": "MIT",
@@ -10,13 +10,14 @@
     {
       "name": "jumptoit",
       "title": "Jump",
-      "description": "",
+      "description": "Jump to a configured URL.",
       "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.100.3",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.0.4",
@@ -24,7 +25,8 @@
     "@types/react": "19.0.10",
     "eslint": "^9.22.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "@types/uuid": "^9.0.0"
   },
   "scripts": {
     "build": "ray build",
