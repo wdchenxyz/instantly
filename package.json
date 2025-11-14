@@ -3,7 +3,7 @@
   "name": "instantly",
   "title": "Instantly",
   "description": "An extension to instantly jump to your favorite URLs.",
-  "icon": "extension-icon.png",
+  "icon": "extension_icon.png",
   "author": "wdchen",
   "license": "MIT",
   "commands": [
