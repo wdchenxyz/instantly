@@ -8,7 +8,7 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "jumptoit",
+      "name": "jump",
       "title": "Jump",
       "description": "Jump to a configured URL.",
       "mode": "view"
